@@ -7,6 +7,7 @@
     height: 1500px;
     margin:  auto;
     box-shadow: 6px 6px 20px;
+    background-color:whitesmoke;
 }
 
 .photo {
@@ -14,15 +15,16 @@
     margin: 10px 5px;
    }
 
+
+
+
+  
+
 img {
     width: 250px;
     height: 250px;
     margin: 20px;
-}
-
-.name {
-    line-height: 10px;
-    margin: auto;
+    border-radius: 10px;
 }
 
 .name h1 {
@@ -30,42 +32,40 @@ img {
     margin: 15px 0px 25px;
 }
 
-
 .name span {
 font-weight: 900;
 }
 
 .name p {
-    padding-left: 20px;
+    margin: 0px 20px;
+    line-height: 25px;
 }
 
 @media screen and (max-width: 576px) { 
     .photo {
         display: block;
-        
-    }
+     }
 
     .name {
         width: 50%;
-        margin: 5px;
-        
+        margin: 5px;    
     }
+
     img {
         width: 400px;
         height: 400px;
-        margin:  5px;
+        margin: 10px 5px;
     }
+
     .name h1 {
-        line-height: 50px;
-        margin: 0px 0px 25px;
+        line-height: 35px;
+        margin: 0px 0px 15px;
     }
-    
     
     .name span {
     font-weight: 900;
     }
     
-    .name p {
-        padding-left: 20px;
-    }
-}
+  .name i {
+      display: none;
+  }
